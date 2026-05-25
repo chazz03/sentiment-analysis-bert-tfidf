@@ -35,12 +35,12 @@ BERT surpasse TF-IDF sur les négations, les formulations ambiguës et les nuanc
 
 ## Pipeline
 
-1. **Chargement** — dataset IMDb via Hugging Face (`datasets`)
-2. **Prétraitement** — suppression des balises HTML, nettoyage, normalisation
-3. **TF-IDF** — vectorisation + GridSearchCV sur Logistic Regression
-4. **BERT** — tokenisation, dataset PyTorch custom, fine-tuning `bert-base-uncased`
-5. **Évaluation** — accuracy, F1, matrices de confusion, analyse des erreurs
-6. **Déploiement** — application web Streamlit, prédiction de sentiment en temps réel
+1. **Chargement** : dataset IMDb via Hugging Face (`datasets`)
+2. **Prétraitement** : suppression des balises HTML, nettoyage, normalisation
+3. **TF-IDF** : vectorisation + GridSearchCV sur Logistic Regression
+4. **BERT** : tokenisation, dataset PyTorch custom, fine-tuning `bert-base-uncased`
+5. **Évaluation** : accuracy, F1, matrices de confusion, analyse des erreurs
+6. **Déploiement** : application web Streamlit, prédiction de sentiment en temps réel
 
 ---
 
